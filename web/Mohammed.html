@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bearcat Ice Cream Order</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Mohammed.js"></script>
+    </head>
+    
+    <div><h1 id="myHeading" style="color: green">Bearcat Ice Cream Order<br> Form</h1></div>
+        
+    
+            Flavor 
+            <select name="flavor" id="flavor">
+                <option value="none">Choose a type </option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Mint Chocolate Chip">Mint Chocolate Chip</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Vanilla">Vanilla</option> 
+            </select>
+            <br>
+            <br>
+            <fieldset class="sizelegend" style="width: 25%">
+                <legend >Size</legend>
+                <input type="radio" name="size" id="small" value="small">Small<br>
+                <input type="radio" name="size" id="medium" value="medium" >Medium<br>
+                <input type="radio" name="size" id="large" value="large" >Large<br>
+            </fieldset>
+            <br>
+            <br>
+            <div>
+            Quantity(1-10) &nbsp; <input type="text" id="quantity" name="quantity" >
+        </div>
+            <br>
+            <div>
+                <fieldset class="sizelegend" style="width: 25%">
+                <legend>Extra Topping</legend>
+                <input type="checkbox" name="topping" value="saltedcaramel" id="saltedcaramel">Salted Caramel<br>
+                <input type="checkbox" name="topping1" value="sugarfreestrawberry" id="sugarfreestrawberry">Sugar Free Strawberry<br>
+            </fieldset>
+        </div>
+             <br>
+             <br>
+             <div class="myBtn">
+                <input type="submit" id="order" value="Order">
+            </div>
+    
+        
+            <p id="result"></p>
+          
+        
+  
+</html>
